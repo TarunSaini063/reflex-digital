@@ -1,0 +1,27 @@
+.paragraphBold{
+    font-weight: bold;
+    color: white;
+    font-size:95%;
+}
+.blockquoteParagraph{
+    font-size: 25px;
+    color: white;
+}
+.blogImage{
+    left: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    padding-left: 15px;
+}
+p{
+    color: var(--paragraph-color);
+    font-size:95%;
+}
+.blogImage img{
+    width: 100%;
+}
+ol li{
+    color: white;
+    color: var(--paragraph-color);
+}
