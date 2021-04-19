@@ -826,6 +826,7 @@ https://templatemo.com/tm-538-digital-trend
   padding-left: 15px;
 
 }
+
 .MainHeading h1{
   font-family: var(--title-font-family);
   font-size: 35px;
@@ -834,14 +835,26 @@ https://templatemo.com/tm-538-digital-trend
   align-items: center;
 }
 
-
+.second-mainHeading{
+  left: 50%;
+  margin-left: 5%;
+  margin-top: 3%;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.second-mainHeading h1{
+  color: var(--primary-color);
+  font-size: 30px;
+}
 /*------------------------------------------------
             Paragraph after heading
  ------------------------------------------------*/
-.paragraph{
+p{
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 1%;
   text-align: justify;
   text-justify: inter-word;
+  color: var(--paragraph-color);
 }
