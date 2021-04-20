@@ -204,42 +204,42 @@ body {
 
 .card-1 .card-img,
 .card-1 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay),url("../images/project/Social-Media-Marketing.png");
+    background-image: var(--card-img-hovered-overlay),url("../images/project/social-media-management/Social-Media-Marketing.png");
 }
 
 .card-2 .card-img,
 .card-2 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Digital-Advertising.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/digital-marketing/Digital-Advertising.png");
 }
 
 .card-3 .card-img,
 .card-3 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Video-Production.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/video-production/Video-Production.png");
 }
 
 .card-4 .card-img,
 .card-4 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Influencer-Marketing.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/influencer-marketing/Influencer-Marketing.png");
 }
 
 .card-5 .card-img,
 .card-5 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Search-Engine-Optimization-SEO.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/seo/Search-Engine-Optimization-SEO.png");
 }
 
 .card-6 .card-img,
 .card-6 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Content-Marketing.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/content-marketing/Content-Marketing.png");
 }
 
 .card-7 .card-img,
 .card-7 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/Web-DEvelopment1.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/web-development/Web-DEvelopment1.png");
 }
 
 .card-8 .card-img,
 .card-8 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/graphics-design.png");
+    background-image: var(--card-img-hovered-overlay), url("../images/project/graphics-design/graphics-design.png");
 }
 
 .footer{
