@@ -1,7 +1,6 @@
 let intro = document.querySelector('.intro');
 let logo = document.querySelector('.logo-header');
 let logoSpan = document.querySelectorAll('.logo');
-// intro.style.display = "none";
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
 
