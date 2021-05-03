@@ -23,7 +23,32 @@
     <link rel="stylesheet" href="../css/team.css">
     <link rel="stylesheet" href="../css/blog.css">
 
+    <!-- DROP DOWN MENU -->
+    <style>
+        .dropdown-item:hover {
+            background-color: var(--dark-color);
+            color: var(--primary-color);
+        }
 
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu {
+            margin-top: 0;
+            background-color: var(--primary-color)
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(function () {
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if (dropdownMenu.is(":visible")) {
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -39,7 +64,6 @@
     <div class="container">
         <a class="navbar-brand" href="../index.html">
             <img src="../images/logo.png" class="img-fluid" alt="project image" width="100px">
-            Reflex Digital
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -61,6 +85,15 @@
                 </li>
                 <li class="nav-item">
                     <a href="../about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu">
+                        <a href="../customer-success.html" class="dropdown-item">Customer success</a>
+                        <a href="../technical-guide.html" class="dropdown-item">Technical guide</a>
+                    </div>
+                </div>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link contact">Contact</a>
