@@ -204,42 +204,130 @@ body {
 
 .card-1 .card-img,
 .card-1 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay),url("../images/project/social-media-management/Social-Media-Marketing.png");
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/social-media-management/Social-Media-Marketing.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-2 .card-img,
 .card-2 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/digital-marketing/Digital-Advertising.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/digital-marketing/Digital-Advertising.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/digital-marketing/Digital-Advertising.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-3 .card-img,
 .card-3 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/video-production/Video-Production.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/video-production/Video-Production.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/video-production/Video-Production.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-4 .card-img,
 .card-4 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/influencer-marketing/Influencer-Marketing.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/influencer-marketing/Influencer-Marketing.png");*/
+
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/influencer-marketing/Influencer-Marketing.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-5 .card-img,
 .card-5 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/seo/Search-Engine-Optimization-SEO.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/seo/Search-Engine-Optimization-SEO.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/seo/Search-Engine-Optimization-SEO.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-6 .card-img,
 .card-6 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/content-marketing/Content-Marketing.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/content-marketing/Content-Marketing.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/content-marketing/Content-Marketing.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-7 .card-img,
 .card-7 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/web-development/Web-DEvelopment1.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/web-development/Web-DEvelopment1.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/web-development/Web-DEvelopment1.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .card-8 .card-img,
 .card-8 .card-img-hovered {
-    background-image: var(--card-img-hovered-overlay), url("../images/project/graphics-design/graphics-design.png");
+    /*background-image: var(--card-img-hovered-overlay), url("../images/project/graphics-design/graphics-design.png");*/
+    border-width: 1px;
+    border-radius: 10px;
+    background: var(--card-img-hovered-overlay);
+    background-image: url("../images/project/graphics-design/graphics-design.png");
+    background-position:center;
+    background-attachment:scroll;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
 .footer{
