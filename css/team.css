@@ -35,7 +35,9 @@
     margin-top: 5px;
     color: var(--primary-color);
 }
-.team-title {
+.team-tag-container .team-title {
     color: white;
     size: 5px;
+    font-size: 14px;
+    text-align: start;
 }
