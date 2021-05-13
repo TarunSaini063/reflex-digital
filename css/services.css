@@ -361,21 +361,58 @@ body {
            main service group
   ---------------------------------------*/
 #group{
-    text-align: justify;
+    /*text-align: justify;*/
     margin-left: 8%;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    width:100%;
 }
 
 #group div{
+    /*display: inline-block;*/
+    /*left: 50%;*/
+    /*margin-top: 2%;*/
+    /*margin-right: 1%;*/
+    width: 250px;
+    /*height: 100px;*/
+    vertical-align: top;
     display: inline-block;
-    left: 50%;
-    margin-top: 2%;
-    margin-right: 1%;
+    *display: inline;
+    zoom: 1;
+    /*background:red;*/
+}
+#group span{
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+#group h4{
+    font-size: 14px;
+    text-align: left;
 }
 
-#group:after{
-    content: '';
+.services-heading h4{
+    color: var(--primary-color);
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
     display: inline-block;
-    width: 100%;
 }
-.group_item h3{
+#service-row p{
+    margin-left: 8%;
 }
+
+.line{
+    margin: 30px auto;
+    width: 95%;
+    background-color: var(--primary-color);
+    padding: 2px;
+    border-radius: 10px;
+}
+
