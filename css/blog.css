@@ -8,15 +8,17 @@
     color: white;
 }
 .blogImage{
-    left: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 3%;
-    padding-left: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
+
 p{
     color: var(--paragraph-color);
-    font-size:95%;
+    margin: auto;
 }
 .blogImage img{
     width: 100%;
@@ -24,4 +26,10 @@ p{
 ol li{
     color: white;
     color: var(--paragraph-color);
+}
+#author{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    align-items: center;
 }
